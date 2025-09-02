@@ -1,0 +1,1 @@
+export { NewsDialog } from './NewsDialog'
