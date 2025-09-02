@@ -35,3 +35,65 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # MOC_Fondue
+
+โปรเจค MOC_Fondue เป็นระบบแดชบอร์ดสำหรับจัดการข้อมูลจังหวัด หมวดหมู่ และข่าวสาร พัฒนาด้วย Next.js และ TypeScript
+
+## 📋 ข้อกำหนดระบบ
+
+- Node.js 18.0 หรือสูงกว่า
+- npm, yarn, pnpm หรือ bun
+
+## 🚀 วิธีการติดตั้งโปรเจค
+
+### 1. Clone โปรเจค
+```bash
+git clone https://github.com/Suraratmungdee/MOC_Fondue.git
+cd MOC_Fondue
+```
+
+### 2. ติดตั้ง Dependencies
+```bash
+npm install
+# หรือ
+yarn install
+# หรือ
+pnpm install
+# หรือ
+bun install
+```
+
+### 3. รันโปรเจคในโหมด Development
+```bash
+npm run dev
+# หรือ
+yarn dev
+# หรือ
+pnpm dev
+# หรือ
+bun dev
+```
+
+### 4. เปิดในเบราว์เซอร์
+เปิด [http://localhost:3000](http://localhost:3000) เพื่อดูผลลัพธ์
+
+## 📁 โครงสร้างโปรเจค
+
+- `/src/app` - หน้าเว็บและ API routes
+- `/src/components` - คอมโพเนนต์ที่ใช้ซ้ำได้
+- `/src/lib` - ไลบรารีและ utilities
+- `/src/hooks` - Custom React hooks
+- `/src/types` - TypeScript type definitions
+- `/public` - ไฟล์ static
+
+## 🛠️ เทคโนโลยีที่ใช้
+
+- **Framework**: Next.js 15
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: Radix UI
+- **Charts**: Recharts
+- **Icons**: Lucide React
+
+## 📄 License
+
+This project is licensed under the MIT License.
